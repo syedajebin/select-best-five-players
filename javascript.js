@@ -7,15 +7,15 @@ function inputfieldvalue(inputfieldid) {
 
 
     if (inputfieldstring.length === 0) {
-        alert("No Field Can not be empty");
+        alert("Fields can't be empty!!");
         return 0;
     }
     else if (inputfieldvaluenumber < 0) {
-        alert("Number must be greater than 0");
+        alert("Provide number greater than 0!!");
         return 0;
     }
     else if (isNaN(inputfieldvaluenumber) == true) {
-        alert("Input must be a number");
+        alert("Provide a number type input!!");
         return 0;
     }
 
@@ -45,15 +45,15 @@ for (let i = 0; i < allBtn.length; i++) {
         if (selectTag.children.length === 5) {
 
 
-            alert("sorry!! you have already selected 5 players")
+            alert("Sorry!! you can't select more than 5 players.")
         }
         else {
-            console.log('working')
+        
             li.innerText = selectedPlayerName;
             selectTag.appendChild(li);
             allBtn[i].disabled = true;
             if (allBtn[i].disabled == true) {
-                allBtn[i].style.backgroundColor = "grey";
+                allBtn[i].style.backgroundColor = "tomato";
             }
 
         }
