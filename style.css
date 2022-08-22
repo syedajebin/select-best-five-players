@@ -1,0 +1,90 @@
+body {
+    background-color:aliceblue;
+}
+
+#container {}
+
+.col-lg-4 {
+    height: 100%;
+}
+
+
+
+.banner-text {
+    width: 79%;
+}
+
+.banner-text h1 {
+    font-size: 2.2rem;
+    text-align: left;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.banner-text p {
+    text-align: center;
+}
+#banner{
+    background-color: #00314E;
+}
+#budget-box{
+    background-color: #00314E;
+}
+/* .btn-common{
+    display: block;
+    width: 70%;
+    margin: auto;
+} */
+
+.card img {
+    height: 180px;
+
+}
+
+li {
+    margin: 15px 0px;
+}
+
+.list-item {
+    height: 365px;
+
+}
+
+.btn-common:focus {
+    background-color:orangered;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgba(41, 39, 39, 0.703);
+   
+}
+
+@media (max-width:575px) {
+    .banner-text {
+        width: 100%;
+
+    }
+
+    .banner-text h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .ronaldo {
+        display: block;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .banner-text p {
+        text-align: center;
+    }
+}
+
+
