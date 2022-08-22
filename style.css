@@ -2,22 +2,22 @@ body {
     background-color:aliceblue;
 }
 
-#container {}
 
-.col-lg-4 {
+
+#banner-img {
     height: 100%;
 }
 
 
 
 .banner-text {
-    width: 79%;
+    width: 78%;
 }
 
 .banner-text h1 {
-    font-size: 2.2rem;
-    text-align: left;
-    font-family: 'Berkshire Swash', cursive;
+   font-size: 700px;
+    
+    font-family:cursive;
 }
 
 .banner-text p {
@@ -29,11 +29,7 @@ body {
 #budget-box{
     background-color: #00314E;
 }
-/* .btn-common{
-    display: block;
-    width: 70%;
-    margin: auto;
-} */
+
 
 .card img {
     height: 180px;
@@ -44,7 +40,7 @@ li {
     margin: 15px 0px;
 }
 
-.list-item {
+.list-items {
     height: 365px;
 
 }
@@ -61,30 +57,19 @@ label {
 input {
     background-color: aliceblue;
    
-}
-
-@media (max-width:575px) {
-    .banner-text {
-        width: 100%;
-
-    }
-
-    .banner-text h1 {
-        font-size: 1.5rem;
+} 
+ .banner-text h1 {
+        font-size: 700px;
         font-weight: bold;
         margin-top: 20px;
         text-align: center;
     }
 
-    .ronaldo {
-        display: block;
-        margin: 0 auto;
-        height: 300px;
-    }
+    
 
     .banner-text p {
         text-align: center;
     }
-}
+
 
 
